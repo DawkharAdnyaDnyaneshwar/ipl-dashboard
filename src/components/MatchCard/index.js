@@ -14,7 +14,9 @@ const MatchCard = props => {
       <p className="competing-team-name">{competingTeam}</p>
       <p className="result">{result}</p>
       <p
-        className={`match-status {matchStatus === 'Won' ? 'match-won' : 'match-lost'}`}
+        className={`match-status ${
+          matchStatus === 'Won' ? 'match-won' : 'match-lost'
+        }`}
       >
         {matchStatus}
       </p>
