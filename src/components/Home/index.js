@@ -43,7 +43,7 @@ class Home extends Component {
           ) : (
             <ul className="teams-list">
               {teams.map(eachTeam => (
-                <TeamCard key={eachTeam.name} team={eachTeam} />
+                <TeamCard key={eachTeam.id} team={eachTeam} />
               ))}
             </ul>
           )}

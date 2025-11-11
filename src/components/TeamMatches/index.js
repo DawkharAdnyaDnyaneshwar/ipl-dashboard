@@ -21,9 +21,9 @@ class TeamMatches extends Component {
     date: data.date,
     venue: data.venue,
     competingTeam: data.competing_team,
-    competingteamLogo: data.competing_team_logo,
-    firstInnings: data.first_inning,
-    secondInning: data.second_innings,
+    competingTeamLogo: data.competing_team_logo,
+    firstInnings: data.first_innings,
+    secondInnings: data.second_innings,
     matchStatus: data.match_status,
   })
 
